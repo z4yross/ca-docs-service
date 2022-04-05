@@ -1,0 +1,37 @@
+@startmindmap
+!theme lightgray
+*[#Orange] CryptoAlert
+ *[#lightgreen] Sesion
+  *[#lightblue] Sesion
+   *[#lightyellow] Cerrar sesion
+   *[#lightyellow] Iniciar sesion
+  *[#lightblue] Cuenta
+   *[#lightyellow] Registro
+   *[#lightyellow] Cambio de contraseña
+ *[#lightgreen] Usuario
+  *[#lightblue] Informacion
+   *[#lightyellow] Ver informacion
+   *[#lightyellow] Cambio de contraseña
+   *[#lightyellow] ver informacion de subscripcion
+ *[#lightgreen] Alertas
+  *[#lightblue] Configurar Alertas
+   *[#lightyellow] Cambiar rango de capital
+   *[#lightyellow] Cambiar metodos de pago
+   *[#lightyellow] Cambiar porcentage de transacciones completadas
+   *[#lightyellow] Cambiar porcentaje de retorno
+   *[#lightyellow] Cambiar monedas
+  *[#lightblue] Visualizar Alertas
+   *[#lightyellow] Visualizar historial de alertas
+   *[#lightyellow] Eliminar alerta
+   *[#lightyellow] Notificar alerta
+ *[#lightgreen] Subscripcion
+  *[#lightblue] Administrar subscripcion
+   *[#lightyellow] Crear subscripcion
+   *[#lightyellow] Eliminar subscripcion
+   *[#lightyellow] Historial de transacciones
+   *[#lightyellow] Cambiar metodo de pago
+ *[#lightgreen] Soporte
+  *[#lightblue] Soporte
+   *[#lightyellow] FAQ (opcional)
+   *[#lightyellow] Contactar con soporte (email)
+@endmindmap

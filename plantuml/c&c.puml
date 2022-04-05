@@ -1,0 +1,59 @@
+@startuml
+skinparam componentStyle uml1
+
+component AlertFinder as AF
+database AF_DB
+AF - AF_DB
+
+component NotificationStore as NS
+database NS_DB
+NS - NS_DB
+
+component ChannelFinder as CF
+database CF_DB
+CF - CF_DB
+
+component AlertServiceGenerator as ASG
+database ASG_DB
+ASG - ASG_DB
+
+component ApiGateway as AG
+
+component Login as LG
+database LG_DB
+LG - LG_DB
+
+component SubscriptionManager as SM
+database SM_DB
+SM - SM_DB
+
+component Session as SS
+database SS_DB
+SS - SS_DB
+
+component User as US
+database US_DB
+US - US_DB
+
+component Soporte as SP
+
+AG -0)- NS : PublishNotification
+CF -0)- AG : RegisterUserChannel
+ASG -0)- AG : CreateAlertService
+
+CF -0)- NS : CheckUserChannel
+
+AF -(0- NS : CreateNotification
+
+AG -(0- STRIPE : Payments
+
+AG -(0- LG
+
+AG -(0)- SM
+
+AF -0)- AG
+SS -0)- AG
+US -0)- AG
+SP -0)- AG
+
+@enduml
